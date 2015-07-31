@@ -2,7 +2,7 @@
 
 This is the Web Application project of the [myCoffee IoT Framework](http://www.wbss.ch/mycoffee/de/index.html).
 
-The other components of the myCoffee IoT Framework are:
+The other components of the myCoffee IoT framework are:
 * [myCoffee HiveMQ Plugin](https://github.com/WBSS/myCoffeeHiveMQPlugin)
 * [myCoffee Storm Application](https://github.com/WBSS/myCoffeeStorm)
 
