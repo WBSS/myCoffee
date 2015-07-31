@@ -6,12 +6,6 @@ The other components of the myCoffee IoT framework are:
 * [myCoffee HiveMQ Plugin](https://github.com/WBSS/myCoffeeHiveMQPlugin)
 * [myCoffee Storm Application](https://github.com/WBSS/myCoffeeStorm)
 
-## Demo
-
-* Dashboard: [Front end](http://sandbox.itweet.ch:8080/mycoffee/dashboard)
-* Coffee maschine simulator: (IoT device): [myCoffee](http://sandbox.itweet.ch:8080/mycoffee/dashboard)
-* Banner publisher: [Front end](http://sandbox.itweet.ch:8080/mycoffee/dashboard)
-
 ## Prerequisites
 
 * MySQL 5.5 with `mycoffee` database
@@ -40,3 +34,6 @@ Make sure you start the myCoffee components in the following order:
 4. Storm Application
 5. Web Container
 
+* Dashboard: [Data front end](http://localhost:8080/mycoffee/dashboard)
+* Coffee maschine simulator: [IoT device](http://localhost:8080/mycoffee/simulator)
+* Banner publisher: [Publisher front end](http://localhost:8080/mycoffee/publisher)
