@@ -34,6 +34,6 @@ Make sure you start the myCoffee components in the following order:
 4. Storm Application
 5. Web Container
 
-* Dashboard: [Data front end](http://localhost:8080/mycoffee/dashboard)
-* Coffee maschine simulator: [IoT device](http://localhost:8080/mycoffee/simulator)
-* Banner publisher: [Publisher front end](http://localhost:8080/mycoffee/publisher)
+* Dashboard: [(http://localhost:8080/mycoffee/dashboard](http://localhost:8080/mycoffee/dashboard)
+* Coffee maschine simulator: [http://localhost:8080/mycoffee/simulator](http://localhost:8080/mycoffee/simulator)
+* Banner publisher: [http://localhost:8080/mycoffee/publisher](http://localhost:8080/mycoffee/publisher)
