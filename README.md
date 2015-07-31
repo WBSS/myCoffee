@@ -1,10 +1,15 @@
 ## Introduction
 
-This is the front end of the [myCoffee IoT framework](http://www.wbss.ch/mycoffee/de/index.html).
+This is the Web Application project of the [myCoffee IoT Framework](http://www.wbss.ch/mycoffee/de/index.html).
 
-The other components of the myCoffee IoT framework are:
+The other components of the myCoffee IoT Framework are:
 * [myCoffee HiveMQ Plugin](https://github.com/WBSS/myCoffeeHiveMQPlugin)
 * [myCoffee Storm Application](https://github.com/WBSS/myCoffeeStorm)
+
+The web application consists of three parts:
+* Simulator [(Live Preview)](http://sandbox.itweet.ch:8080/mycoffee/simulator)
+* Dashboard [(Live Preview)](http://sandbox.itweet.ch:8080/mycoffee/dashboard)
+* Publisher [(Live Preview)](http://sandbox.itweet.ch:8080/mycoffee/publisher)
 
 ## Prerequisites
 
@@ -33,7 +38,9 @@ Make sure you start the myCoffee components in the following order:
 3. HiveMQ Broker
 4. Storm Application
 5. Web Container
+ 
+Web pages: 
+* [http://localhost:8080/mycoffee/simulator](http://localhost:8080/mycoffee/simulator)
+* [http://localhost:8080/mycoffee/dashboard](http://localhost:8080/mycoffee/dashboard)
+* [http://localhost:8080/mycoffee/publisher](http://localhost:8080/mycoffee/publisher)
 
-* Dashboard: [(http://localhost:8080/mycoffee/dashboard](http://localhost:8080/mycoffee/dashboard)
-* Coffee maschine simulator: [http://localhost:8080/mycoffee/simulator](http://localhost:8080/mycoffee/simulator)
-* Banner publisher: [http://localhost:8080/mycoffee/publisher](http://localhost:8080/mycoffee/publisher)
