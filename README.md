@@ -1,16 +1,16 @@
 ## Introduction
 
-This is the Web Application project of the [myCoffee IoT Framework](http://www.wbss.ch/mycoffee/de/index.html).
+This is the front end of the [myCoffee IoT Framework](http://www.wbss.ch/mycoffee/de/index.html).
 
 The other components of the myCoffee IoT framework are:
 * [myCoffee HiveMQ Plugin](https://github.com/WBSS/myCoffeeHiveMQPlugin)
 * [myCoffee Storm Application](https://github.com/WBSS/myCoffeeStorm)
-
+<!--
 The web application consists of three parts:
 * Simulator [(Live Preview)](http://sandbox.itweet.ch:8080/mycoffee/simulator)
 * Dashboard [(Live Preview)](http://sandbox.itweet.ch:8080/mycoffee/dashboard)
 * Publisher [(Live Preview)](http://sandbox.itweet.ch:8080/mycoffee/publisher)
-
+-->
 ## Prerequisites
 
 * MySQL 5.5 with `mycoffee` database
