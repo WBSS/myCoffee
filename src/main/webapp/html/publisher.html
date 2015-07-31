@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html ng-app="Publisher">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kaffeeautomat-Publisher</title>
+
+<!-- Bootstrap -->
+<link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+<style>
+body {
+  font-family: Helvetica !important;
+  font-size: 140% !important;
+  color: #5a5a5a;
+  height: 100%;
+  background-color: #fff;
+}
+
+	.container-fixed {
+	  margin: 0 auto;
+	  max-width: 550px;
+	}
+</style>
+
+</head>
+
+<body ng-controller="PublisherController">
+
+	<div class="container-fixed">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Banner-Publisher</h2>
+				<div class="row" style="margin-top:35px">
+					<div class="col-md-7">
+						<div class="form-group">
+	   						<label>1. Auf welchen Kaffeeautomaten</label>
+			   				<select class="form-control" style="width:250px"
+			            			ng-model="clientSelected" 
+			            			ng-options="client as 'Schaerer ' + client.type + ' ' + client.client for client in clients">
+			            	</select>
+		            	</div>
+		            	<div class="form-group">
+		            		<label>2. Welcher Banner</label>
+			   				<select class="form-control" style="width:250px"
+			            			ng-model="bannerSelected" 
+			            			ng-options="banner as banner.name for banner in banners">
+			            	</select>
+		            	</div>
+						<div style="margin:30px 0; width:250px; text-align:center">
+			            	<span>
+			            		<a ng-click="publish()" style="width: 100%" type="button" class="btn btn-default btn-info">Publish</a>
+			            	</span>
+						</div>
+					</div>
+				</div>	
+	      <div class="row" style="margin-top: 25px;">
+          <div class="col-md-12">
+            <label>Broker - Kommunikation</label>
+            <div id="info" style="border-top: 1px solid #e5e5e5"><small ng-show="info" >{{info}}</small></div>
+            <div id="error"><small ng-show="error" style="color: red;">Fehler: {{error}}</small>
+            </div>
+          </div>
+        </div>
+			</div>
+		</div>
+	</div>
+  <nav class="navbar navbar-fixed-bottom" style="background-color: #f5f5f5; ; border-top: 1px solid #e5e5e5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" style="text-align: left;">
+          <ul class="list-inline" style="padding-top: 1.0em; color: #666;">
+          <li><small>&#169; 2015 All Rights Reserved W.B.S.S GmbH - Uraniastrasse 26 - 8001 Zürich</small></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+	
+	<script src="resources/angularjs/angular.min.js"></script>
+	<script src="resources/javascript/mqttws31.js"></script>
+	<script src="resources/javascript/publisher.js"></script>
+
+</body>
+</html>

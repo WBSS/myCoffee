@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlrewrite
+        PUBLIC "-//tuckey.org//DTD UrlRewrite 3.1//EN"
+        "http://www.tuckey.org/res/dtds/urlrewrite3.1.dtd">
+
+<urlrewrite use-query-string="true">
+	<rule>
+		<from>^/simulator$</from>
+		<to last="true">/html/simulator.html</to>
+	</rule>
+	<rule>
+    	<from>^/dashboard$</from>
+    	<to last="true">/html/dashboard.html</to>
+  	</rule>
+	<rule>
+    	<from>^/publisher$</from>
+    	<to last="true">/html/publisher.html</to>
+  	</rule>
+</urlrewrite>

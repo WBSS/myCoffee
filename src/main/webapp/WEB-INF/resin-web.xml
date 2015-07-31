@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web-app xmlns="http://caucho.com/ns/resin" 
+       xmlns:resin="urn:java:com.caucho.resin">  
+    
+      <filter filter-name="gzip" filter-class="com.caucho.filters.GzipFilter">
+        <init>
+          <use-vary>true</use-vary>
+        </init>
+      </filter>
+
+      <filter-mapping filter-name="gzip">
+        <url-pattern>
+          <include-pattern>/*</include-pattern>
+        </url-pattern>
+      </filter-mapping>
+ 	
+</web-app>

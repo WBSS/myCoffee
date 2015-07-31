@@ -1,0 +1,80 @@
+DXS*SAR0000001*VA*V0/6*1
+ST*001*0001
+ID1*SAR1122333444*Prime*1.92**CT1S_2M_2P
+ID4*2
+ID5*20131009*171059**OFF
+AM1*SAR01013028*CUPID 1.2*1.10*WinCE 6.0 R3
+CB1**Power Section*190
+VA3*0*214*0*212
+PA1*0**Mocca
+PA4*0*0*0*0
+PA1*1**Kaffee
+PA4*0*0*0*0
+PA1*2**Latte dunkel
+PA4*0*0*0*0
+PA1*3**Espresso
+PA4*2*0*2*0
+SA2*LEFT_GRINDER*0*200
+SA2*RIGHT_GRINDER*0*287
+SA2*LEFT_POWDER*0*700
+SA2*RIGHT_POWDER*0*620
+SA2*TOTAL_WATER*0*23630
+EA3*14*20131009*171059**20131009*171030***37*2
+EA9*30*214
+EA1*EE_35*20131008*082147***Reinigung ist erforderlich
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+EA1**000000*000000
+MA5*OE_100*20130524*141649*Letzte Reinigung
+MA5*MS_38**1*Reinigungen
+MA5*MS_39**2*Spülungen
+MA5*MS_40**1*Milchreinigungen
+MA5*MS_41**113*Brühkolbenhübe
+MA5*MS_42**0.487*Mehlmenge Mühle [kg]
+MA5*MS_43**0.5*Betriebszeit Wasserpumpe [h]
+MA5*MS_0**23.630*Wassermenge gesamt [l]
+MA5*MS_2**0.0*Betriebszeit Mühle links [h]
+MA5*MS_4**0.200*Mahlmenge Mühle links [kg]
+MA5*MS_3**0.1*Betriebszeit Mühle rechts [h]
+MA5*MS_5**0.287*Mahlmenge Mühle rechts [kg]
+MA5*MS_6**35*Ventil Pulversystem links [Hübe]
+MA5*MS_19**16*Pulversystem links [Ausgabezyklen]
+MA5*MS_45**0.0*Betriebszeit Mixermotor links [h]
+MA5*MS_46**0.0*Betriebszeit Motor Dosierschnecke links
+MA5*MS_7**31*Ventil Pulversystem rechts [Hübe]
+MA5*MS_20**10*Pulversystem links [Ausgabezyklen]
+MA5*MS_47**0.0*Betriebszeit Mixermotor rechts [h]
+MA5*MS_48**0.0*Betriebszeit Motor Dosierschnecke rechts
+MA5*MS_8**3*Spülventil NcFoamer [Hübe]
+MA5*MS_11**0*Befüllventil Dampfboiler [Hübe]
+MA5*MS_15**3*Dampfventil [Hübe]
+MA5*MS_17**3624*Dampfboiler Halbleiterrelais (SSR) [Scha
+MA5*MS_9**214*Heisswasserventil [Hübe]
+MA5*MS_10**1*Ventil Brühbeschleuniger [Hübe]
+MA5*MS_12**64*Brühventil [Hübe]
+MA5*MS_13**68*Hauptwasserventil [Hübe]
+MA5*MS_14**344*Ventil Entleerung [Hübe]
+MA5*MS_16**4915*Heisswasserboiler Halbleiterrelais (SSR)
+MA5*MS_18**407*Magnetschalter öffnen Servicetür [Schalt
+MA5*MS_27**113*Betriebszyklen Brüheinheit
+MA5*MS_21**0.0*Betriebszeit Luftpumpe [h]
+MA5*MS_24**0.3*Betriebszeit Brühmotor [h]
+G85*a8d9
+SE*78*0001
+DXE*1*1
