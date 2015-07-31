@@ -32,6 +32,7 @@ The web application consists of three parts:
 ## Run
 
 Make sure you start the myCoffee components in the following order:
+
 1. MySQL DB
 2. KairosDB
 3. HiveMQ Broker
