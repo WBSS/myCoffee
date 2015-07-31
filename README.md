@@ -33,9 +33,4 @@ Make sure you start the myCoffee components in the following order:
 3. HiveMQ Broker
 4. Storm Application
 5. Web Container
- 
-Web pages: 
-* [http://localhost:8080/mycoffee/simulator](http://localhost:8080/mycoffee/simulator)
-* [http://localhost:8080/mycoffee/dashboard](http://localhost:8080/mycoffee/dashboard)
-* [http://localhost:8080/mycoffee/publisher](http://localhost:8080/mycoffee/publisher)
 
